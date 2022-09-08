@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        li{
+            list-style: none;
+            padding:4px 20px;
+        }
+
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul{
+            display: flex;
+            padding-left: 8px;
+            font-size: 19px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 19px;
+            text-align: center;
+            padding: 2px 99px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list" id="list1">HOME</li>
+                <li class="list" id="list2">ABOUT</li>
+                <li class="list" id="list3">STORE</li>
+                <li class="list" id="list4">CONTACT US</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>WELCOME TO OUR STORE</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque voluptatem ullam veniam recusandae atque cum voluptas quo? Nihil dolorem consectetur animi repudiandae laboriosam non odit impedit, quas laborum quo aliquam aperiam magnam pariatur molestias soluta nemo, cupiditate, ipsa eos? Repudiandae nobis ratione eveniet qui hic cumque officiis blanditiis quo? Laborum ex, reprehenderit, nemo ad voluptas alias illum quasi libero provident repellat quod soluta.
+        </p>
+    </section>
+</body>
+</html>
